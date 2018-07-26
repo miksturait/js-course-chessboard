@@ -1,3 +1,35 @@
 body {
   background-color: black;
 }
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  font-size: 60px;
+}
+.row:nth-child(2n + 1) .sqm:nth-child(2n + 1) {
+  background-color: #979797;
+}
+.row:nth-child(2n + 0) .sqm:nth-child(2n + 0) {
+  background-color: #979797;
+}
+.row .sqm {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.row .sqm:hover {
+  background-color: #03a9f4 6e;
+}
+.row .sqm img {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+}
