@@ -1,14 +1,27 @@
 {
-  "name": "dojo-board",
-  "version": "1.0.0",
+  "name": "chessboard",
+  "version": "0.0.1",
   "description": "",
-  "main": "GameBoard.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miksturait/od-zera-do-js-developera.git"
+  },
+  "keywords": [
+    "chess",
+    "awesome",
+    "coderdojo"
+  ],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miksturait/od-zera-do-js-developera/issues"
+  },
+  "homepage": "https://github.com/miksturait/od-zera-do-js-developera#readme",
   "dependencies": {
     "connect": "^3.6.6",
     "serve-static": "^1.13.2"
