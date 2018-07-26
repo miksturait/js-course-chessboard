@@ -15,8 +15,8 @@ export default class GameBoard{
       new Rook(new Vector(7, 0), false),
       new Rook(new Vector(0, 7), true),
       new Rook(new Vector(7, 7), true),
-      new King(new Vector(3, 7), true),
-      new King(new Vector(3, 0), false),
+      new King(new Vector(4, 7), true),
+      new King(new Vector(4, 0), false),
       new Knight(new Vector(1, 0), false),
       new Knight(new Vector(6, 0), false),
       new Knight(new Vector(1, 7), true),
@@ -25,8 +25,8 @@ export default class GameBoard{
       new Bishop(new Vector(5, 0), false),
       new Bishop(new Vector(2, 7), true),
       new Bishop(new Vector(5, 7), true),
-      new Queen(new Vector(4, 7), true),
-      new Queen(new Vector(4, 0), false),
+      new Queen(new Vector(3, 7), true),
+      new Queen(new Vector(3, 0), false),
     ]
     for (let i = 0; i < 8; i++)        {
       this.figuresPosition.push(new Pawn(new Vector(i, 1), true));

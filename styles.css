@@ -1,9 +1,6 @@
-body {
-  background-color: black;
-}
-
 .container {
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
 }
@@ -25,6 +22,17 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.row .sqm span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  background-color: #00c4ff;
+}
+
 .row .sqm:hover {
   background-color: #03a9f4 6e;
 }
